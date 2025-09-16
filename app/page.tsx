@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { Badge, Box } from "@radix-ui/themes";
 import IssuesChart from "./components/IssuesChart";
 import { prisma } from "@/prisma/client"
