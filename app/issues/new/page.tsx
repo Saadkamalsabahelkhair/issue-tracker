@@ -11,7 +11,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { schema } from "@/app/issueSchema";
 import Spinner from "@/app/components/Spinner";
 
-// ✅ Dynamically import SimpleMDE (client-only)
+
 const SimpleMDE = dynamic(() => import("react-simplemde-editor"), {
   ssr: false,
 });
